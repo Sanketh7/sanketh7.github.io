@@ -5,16 +5,16 @@ $(document).ready(() => {
             $('#main-skills-list').append('<div class="skills-item">' + data.skills[i] + '</div>');
         }
         $('#projects').empty();
-        for (let i = 0; i < data.projects.length; i++) {
-            const name = data.projects[i].name;
-            const description = data.projects[i].description;
-            const skills = data.projects[i].skills;
-            const github = data.projects[i].github;
-            const url = data.projects[i].hasOwnProperty('url') ? data.projects[i].url : null;
+        $.each(data.projects, function (key, value) {
+            const name = key;
+            const description = value.description;
+            const skills = value.skills;
+            const github = value.github;
+            const url = value.hasOwnProperty('url') ? value.url : null;
 
             let skillsContent = '';
-            for (let i = 0; i < skills.length; i++) {
-                skillsContent += '<div class="skills-item">' + skills[i] + '</div>';
+            for (let j = 0; j < skills.length; j++) {
+                skillsContent += '<div class="skills-item">' + skills[j] + '</div>';
             }
             const content = `
             <div class="container pure-g">
@@ -35,7 +35,7 @@ $(document).ready(() => {
             `;
 
             $('#projects').append(content);
-        }
+        });
     });
 });
 

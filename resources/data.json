@@ -9,9 +9,8 @@
         "Git",
         "Linux"
     ],
-    "projects": [
-        {
-            "name": "Contest Bot",
+    "projects": {
+        "Contest Bot": {
             "github": "https://www.github.com/sanketh7/contest-bot",
             "description": "A Discord API chatbot used on a server with over 16,000 users. Facilitates contests and contest submissions.",
             "skills": [
@@ -22,8 +21,7 @@
                 "Linux"
             ]
         },
-        {
-            "name": "Desmos Live",
+        "Desmos Live": {
             "github": "https://www.github.com/sanketh7/desmos-live",
             "url": "https://desmos-live-23326.web.app/",
             "description": "A web app that allows users to collaborate on Desmos projects using the Desmos API.",
@@ -37,8 +35,7 @@
                 "Git"
             ]
         },
-        {
-            "name": "Truss Simulator",
+        "Truss Simulator": {
             "github": "https://www.github.com/sanketh7/truss-simulator/",
             "url": "https://sanketh7.github.io/truss-simulator",
             "description": "A web app that solves trusses using matrices and helps the user visualize points of failure.",
@@ -48,5 +45,5 @@
                 "Git"
             ]
         }
-    ]
+    }
 }
