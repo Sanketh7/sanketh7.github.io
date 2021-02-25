@@ -21,6 +21,32 @@
                 "Git",
                 "Linux"
             ]
+        },
+        {
+            "name": "Desmos Live",
+            "github": "https://www.github.com/sanketh7/desmos-live",
+            "url": "https://desmos-live-23326.web.app/",
+            "description": "A web app that allows users to collaborate on Desmos projects using the Desmos API.",
+            "skills": [
+                "HTML/CSS/JSX",
+                "React.JS",
+                "Redux",
+                "Firebase",
+                "Realtime Database",
+                "Cloud Functions",
+                "Git"
+            ]
+        },
+        {
+            "name": "Truss Simulator",
+            "github": "https://www.github.com/sanketh7/truss-simulator/",
+            "url": "https://sanketh7.github.io/truss-simulator",
+            "description": "A web app that solves trusses using matrices and helps the user visualize points of failure.",
+            "skills": [
+                "HTML/CSS/JS",
+                "Bootstrap",
+                "Git"
+            ]
         }
     ]
 }
