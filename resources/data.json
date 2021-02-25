@@ -1,0 +1,26 @@
+{
+    "skills": [
+        "Python",
+        "C++",
+        "Java",
+        "HTML/CSS/JS",
+        "React.JS",
+        "Node.JS",
+        "Git",
+        "Linux"
+    ],
+    "projects": [
+        {
+            "name": "Contest Bot",
+            "github": "https://www.github.com/sanketh7/contest-bot",
+            "description": "A Discord API chatbot used on a server with over 16,000 users. Facilitates contests and contest submissions.",
+            "skills": [
+                "Python",
+                "MySQL+ORM",
+                "Azure",
+                "Git",
+                "Linux"
+            ]
+        }
+    ]
+}

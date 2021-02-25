@@ -1,0 +1,129 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+#hero {
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#hero-title {
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: bold;
+    font-family: 'Source Code Pro', mono space;
+}
+
+#socials {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; 
+    align-items: center;
+    margin: 1.5em;
+}
+
+.icon-button {
+    margin: 1em;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.icon-button:hover {
+    background-color: #63d471;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#233329), to(#63D471));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+}
+
+.container {
+    margin-top: 2em;
+}
+
+.container-title {
+    text-align: right;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 1em;
+    font-family: 'Source Code Pro', mono space;
+}
+
+.skills-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.skills-item {
+    color: #63D471;
+    border: solid #63D471;
+    border-radius: 16px;
+    border-width: 2px;
+    padding: 0.5em 1.5em;
+    margin: 0.5em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-family: 'Source Code Pro', mono space;
+}
+
+.skills-item:hover {
+    color: white;
+    border: solid white;
+    border-width: 2px;
+    background-color: #63d471;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#233329), to(#63D471));
+}
+
+#projects-title {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 1.5em;
+    font-family: 'Source Code Pro', mono space; 
+}
+
+.project-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 1em;
+}
+
+.project-desc {
+    font-family: 'Source Code Pro', mono space;
+    margin: 0.5em;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 48em) {
+    .container-title {
+        text-align: center;
+        margin: 0.75em;
+    }
+    .skills-list {
+        padding: 0 2em;
+        justify-content: center;
+    }
+    .project-links {
+        justify-content: center;
+    }
+    .project-links > .icon-button {
+        margin-top: 0;
+    }
+    .project-desc {
+        text-align: center;
+    }
+}
+
