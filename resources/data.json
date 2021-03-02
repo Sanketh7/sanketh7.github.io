@@ -34,16 +34,6 @@
                 "Cloud Functions",
                 "Git"
             ]
-        },
-        "Truss Simulator": {
-            "github": "https://www.github.com/sanketh7/truss-simulator/",
-            "url": "https://sanketh7.github.io/truss-simulator",
-            "description": "A web app that solves trusses using matrices and helps the user visualize points of failure.",
-            "skills": [
-                "HTML/CSS/JS",
-                "Bootstrap",
-                "Git"
-            ]
         }
     }
 }
