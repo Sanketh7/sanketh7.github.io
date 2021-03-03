@@ -15,7 +15,7 @@
             "description": "A Discord API chatbot used on a server with over 16,000 users. Facilitates contests and contest submissions.",
             "skills": [
                 "Python",
-                "MySQL+ORM",
+                "SQL+ORM",
                 "Azure",
                 "Git",
                 "Linux"
