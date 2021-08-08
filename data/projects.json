@@ -1,0 +1,9 @@
+{
+  "projects": [
+    {
+      "title": "Contest Bot",
+      "description": "A contest bot that everyone loves.",
+      "skills": ["Python", "HTML"]
+    }
+  ]
+}
