@@ -9,7 +9,8 @@
     {
       "title": "Desmos Live",
       "description": "A web app that allows users to collaborate on Desmos projects using the Desmos API.",
-      "skills": ["React.js", "Node.js", "Typescript", "REST API", "PostgreSQL", "Azure", "Docker", "Unit Tests"]
+      "skills": ["React.js", "Node.js", "Typescript", "REST API", "PostgreSQL", "Azure", "Docker", "Unit Tests"],
+      "github": "https://www.github.com/sanketh7/desmoslive"
     }
   ]
 }
