@@ -15,7 +15,7 @@ export const EducationItem: React.FC<Props> = ({name, years, description, classw
           {years}
         </div>
       </div>
-      <div className="col-span-2 font-mono gap-x-8 gap-y-2 flex items-center justify-center flex-wrap">
+      <div className="md:col-span-2 font-mono gap-x-8 gap-y-2 flex items-center justify-center flex-wrap">
         {classwork.map((c) => <ClassworkPill key={c} name={c} />)}
       </div>
     </>

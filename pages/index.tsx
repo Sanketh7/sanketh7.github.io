@@ -4,6 +4,7 @@ import {EducationItem} from '../components/EducationItem';
 import {EducationList} from '../components/EducationList';
 import {EmailIcon} from '../components/icons/EmailIcon';
 import {GithubIcon} from '../components/icons/GithubIcon';
+import {HeartIcon} from '../components/icons/HeartIcon';
 import {LinkedinIcon} from '../components/icons/LinkedinIcon';
 import {ProjectItem} from '../components/ProjectItem';
 import {ProjectList} from '../components/ProjectList';
@@ -56,7 +57,7 @@ const Home: React.FC<Props> = ({projects, education}: Props) => {
         </div>
 
         <footer className="font-mono text-center text-gray-300 p-4 border-t">
-          Made by Sanketh Varamballi
+          Made with <HeartIcon styles="fill-current text-red-500 w-4 inline" /> by Sanketh Varamballi
         </footer>
       </div>
     </div>
