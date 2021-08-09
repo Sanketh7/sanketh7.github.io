@@ -1,0 +1,16 @@
+{
+  "education": [
+    {
+      "name": "University of Maryland, College Park",
+      "years": "2021 - 2024",
+      "description": "B.S. Computer Science, Honors College",
+      "classwork": ["Object Oriented Programming", "Computer Systems", "Discrete Structures", "Algorithms", "Programming Languages"]
+    },
+    {
+      "name": "Foothill College",
+      "years": "2020 - 2021",
+      "description": "GPA: 4.0",
+      "classwork": ["Calculus", "Linear Algebra", "Differential Equations", "Discrete Math"]
+    }
+  ]
+}

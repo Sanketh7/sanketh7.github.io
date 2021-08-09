@@ -7,6 +7,7 @@ export interface IProject {
   title: string;
   description: string;
   skills: string[];
+  github: string;
 }
 
 export const getProjectsData = async (): Promise<IProject[]> => {

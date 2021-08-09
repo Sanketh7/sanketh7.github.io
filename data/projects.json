@@ -2,8 +2,14 @@
   "projects": [
     {
       "title": "Contest Bot",
-      "description": "A contest bot that everyone loves.",
-      "skills": ["Python", "HTML"]
+      "description": "A Discord API chatbot used on a server with over 20,000 users. Facilitates contests and contest submissions.",
+      "skills": ["Python", "PostgreSQL", "AWS EC2", "Docker"],
+      "github": "https://www.github.com/sanketh7/contest-bot"
+    },
+    {
+      "title": "Desmos Live",
+      "description": "A web app that allows users to collaborate on Desmos projects using the Desmos API.",
+      "skills": ["React.js", "Node.js", "Typescript", "REST API", "PostgreSQL", "Azure", "Docker", "Unit Tests"]
     }
   ]
 }
