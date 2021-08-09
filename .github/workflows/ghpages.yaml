@@ -22,10 +22,13 @@ jobs:
         with:
           cmd: build
 
+      - name: export
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: next export
+
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: out
-          CLEAN: true
+          branch: gh-pages
+          folder: out
