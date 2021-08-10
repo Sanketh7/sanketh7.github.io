@@ -25,5 +25,6 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'require-jsdoc': 'off',
     'max-len': 'off',
+    '@next/next/no-img-element': 'off',
   },
 };
