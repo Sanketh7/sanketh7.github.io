@@ -8,7 +8,7 @@ export const ProjectItem: React.FC<Props> = ({title, description, skills, github
   return (
     <>
       <div className="col-span-1 flex flex-col items-center md:items-end">
-        <div className="text-3xl font-mono flex-grow mb-4 truncate">{title}</div>
+        <div className="text-3xl font-mono font-bold flex-grow mb-4 truncate">{title}</div>
         <GithubIcon styles="w-12 fill-current text-gray-100 hover:text-green-300" href={github} />
       </div>
       <div className="col-span-2 flex flex-col items-center md:items-start">
