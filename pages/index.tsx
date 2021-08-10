@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import {EducationItem} from '../components/EducationItem';
 import {EducationList} from '../components/EducationList';
 import {EmailIcon} from '../components/icons/EmailIcon';
@@ -25,8 +26,9 @@ const Home: React.FC<Props> = ({projects, education}: Props) => {
       </Head>
 
       {/* HERO */}
-      <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-b from-green-400 to-blue-500">
-        <div className="text-2xl sm:text-4xl md:text-6xl font-bold text-gray-100 font-mono mb-8">Sanketh Varamballi</div>
+      <div className="flex flex-col gap-y-8 items-center justify-center h-screen bg-gradient-to-b from-green-400 to-blue-500">
+        <Image src="/favicon.ico" width={128} height={128} alt="icon" className="rounded-full" />
+        <div className="text-2xl sm:text-4xl md:text-6xl font-bold text-gray-100 font-mono">Sanketh Varamballi</div>
         <div className="flex items-center justify-around w-1/2">
           <GithubIcon styles="w-8 sm:w-12 md:w-16 fill-current text-gray-100 hover:text-green-300" href="https://www.github.com/sanketh7"/>
           <LinkedinIcon styles="w-8 sm:w-12 md:w-16 fill-current text-gray-100 hover:text-green-300" href="https://www.linkedin.com/in/sankethvaramballi"/>
