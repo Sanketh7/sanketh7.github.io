@@ -8,6 +8,7 @@ export interface IProject {
   description: string;
   skills: string[];
   github: string;
+  url?: string;
 }
 
 export const getProjectsData = async (): Promise<IProject[]> => {

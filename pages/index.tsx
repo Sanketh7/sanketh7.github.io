@@ -39,7 +39,7 @@ const Home: React.FC<Props> = ({projects, education}: Props) => {
         <div className="mb-32">
           <SectionHeader title="Projects" />
           <ProjectList>
-            {projects.map((p) => <ProjectItem key={p.title} title={p.title} description={p.description} skills={p.skills} github={p.github} />)}
+            {projects.map((p) => <ProjectItem key={p.title} project={p} />)}
           </ProjectList>
         </div>
 

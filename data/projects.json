@@ -4,7 +4,8 @@
       "title": "Contest Bot",
       "description": "A Discord API chatbot used on a server with over 20,000 users. Facilitates contests and contest submissions.",
       "skills": ["Python", "PostgreSQL", "AWS EC2", "Docker", "Linux"],
-      "github": "https://www.github.com/sanketh7/contest-bot"
+      "github": "https://www.github.com/sanketh7/contest-bot",
+      "url": "http://desmoslive.eastus.cloudapp.azure.com/"
     },
     {
       "title": "Desmos Live",
