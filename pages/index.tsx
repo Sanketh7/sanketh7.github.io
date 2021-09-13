@@ -36,7 +36,7 @@ const Home: React.FC<Props> = ({projects, education}: Props) => {
       </div>
 
       <div className="bg-blue-500">
-        <div className="mb-32">
+        <div className="mb-32 px-8">
           <SectionHeader title="Projects" />
           <ProjectList>
             {projects.map((p) => <ProjectItem key={p.title} project={p} />)}
